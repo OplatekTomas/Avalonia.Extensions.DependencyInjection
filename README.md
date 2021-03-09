@@ -1,4 +1,4 @@
-# Extension for C# [Avalonia UI](https://github.com/AvaloniaUI/Avalonia) framework to enable ASP.Net Core like DI.
+# Extension for C# [Avalonia UI](https://github.com/AvaloniaUI/Avalonia) framework to enable ASP.NET Core like DI.
 I'm not affiliated with the devs of Avalonia UI. This project was created, because I was not quite happy with the existing solutions and I just kinda wanted to try it.
 
 ## Features:
