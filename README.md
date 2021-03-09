@@ -7,7 +7,9 @@ I'm not affiliated with the devs of Avalonia UI. This project was created, becau
  - Services can contain other services, altough I would not combine transient and singleton services since it does make a transient services singleton.
 
 ## Build:
-Building the project should be as simple as running `dotnet build`
+Building the project should be as simple as running `dotnet build`.
+
+Or just clone the repo and add the .net project as an existing project to your solution and build it like that.
 
 ## Usage:
  Add a `UseDependencyInjection(Action<IServiceCollection>)` extension method call in Avalonia UI builder.
