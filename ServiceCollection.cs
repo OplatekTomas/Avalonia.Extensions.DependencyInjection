@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Avalonia.Extensions.DependencyInjection.Exceptions;
+using Kaharonus.Avalonia.DependencyInjection.Exceptions;
 
-namespace Avalonia.Extensions.DependencyInjection {
+namespace Kaharonus.Avalonia.DependencyInjection {
     internal class ServiceCollection : IServiceCollection {
         public Dictionary<Type, object> Singletons { get; }
 

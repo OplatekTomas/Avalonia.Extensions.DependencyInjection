@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Avalonia DI Extension</Title>
+        <Description>Dependency Injection extension for the Avalonia GUI framework</Description>
+        <PackageProjectUrl>https://github.com/Kaharonus/Avalonia.Extensions.DependencyInjection</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Kaharonus/Avalonia.Extensions.DependencyInjection</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Avalonia" Version="0.10.0" />
+    </ItemGroup>
+
+</Project>

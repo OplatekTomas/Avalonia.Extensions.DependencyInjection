@@ -3,9 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Avalonia.Extensions.DependencyInjection.Controls;
+using Kaharonus.Avalonia.DependencyInjection.Controls;
 
-namespace Avalonia.Extensions.DependencyInjection {
+namespace Kaharonus.Avalonia.DependencyInjection {
     internal static class ServiceStore {
         private static ServiceCollection _services;
         private static Dictionary<Type, IEnumerable<FieldInfo>> requirements = new();

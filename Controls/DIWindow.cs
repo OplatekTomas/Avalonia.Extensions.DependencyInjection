@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using Avalonia.Controls;
 
-namespace Avalonia.Extensions.DependencyInjection.Controls {
+namespace Kaharonus.Avalonia.DependencyInjection.Controls {
     public class DIWindow : Window, IInjectable {
         protected DIWindow() {
             this.Inject();

@@ -1,6 +1,6 @@
 using System;
 
-namespace Avalonia.Extensions.DependencyInjection.Exceptions {
+namespace Kaharonus.Avalonia.DependencyInjection.Exceptions {
     public class ServiceAlreadyAddedException : Exception {
         
     }

@@ -1,4 +1,4 @@
-namespace Avalonia.Extensions.DependencyInjection.Controls {
+namespace Kaharonus.Avalonia.DependencyInjection.Controls {
     public interface IInjectable {
         
     }

@@ -1,6 +1,6 @@
 using System;
 
-namespace Avalonia.Extensions.DependencyInjection {
+namespace Kaharonus.Avalonia.DependencyInjection {
     
     [AttributeUsage(AttributeTargets.Field)]
     public class Inject : Attribute { }

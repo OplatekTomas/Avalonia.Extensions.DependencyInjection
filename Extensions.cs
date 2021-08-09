@@ -3,9 +3,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Avalonia.Extensions.DependencyInjection.Controls;
+using Avalonia;
+using Kaharonus.Avalonia.DependencyInjection.Controls;
 
-namespace Avalonia.Extensions.DependencyInjection {
+namespace Kaharonus.Avalonia.DependencyInjection {
     public static class Extensions {
 
         private static IEnumerable<Type> GetDITypes(Assembly assembly) {
